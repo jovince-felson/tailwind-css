@@ -18,7 +18,7 @@
       class="bg-green-200 flex items-center justify-between p-4 shadow-xl sticky top-0"
     >
       <h1 class="text-5xl">greeden</h1>
-      <ul class="flex gap-5 text-grey-700">
+      <ul class="flex gap-5 text-grey-700  :hidden ">
         <li><a href="" class="hover:underline">home</a></li>
         <li><a href="" class="hover:underline">product</a></li>
         <li><a href="" class="hover:underline">contact</a></li>
@@ -43,7 +43,7 @@
       </div>
 
       <div class=" hidden md:block p-5">
-        <img src="plant" class="w-40" />
+        <img src="plant" class="w-40 h-40" />
       </div>
     </div>
 
@@ -54,7 +54,7 @@
 
     <!--about as card-->
 
-    <div class=" w-full mb-1 flex flex-row-3">
+    <div class=" md:flex">
 
     <div class=" border border-black p-4 flex flex-col items-center  m-5" >
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-9">
@@ -90,16 +90,16 @@
         </div>
     </div>
 
-    <div class="flex gap-10 m-10  | flex-row">
+    
 
-      <div class="  border border-black p-4 flex flex-col justify-center items-center" >
+      <div class="  border border-black p-4 flex flex-col m-5 items-center" >
          
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-9">
           <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0l6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 014.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 00-.38 1.21 12.035 12.035 0 007.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 011.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 01-2.25 2.25h-2.25z" />
         </svg>
         
   
-        <div >
+        <div class="border" >
           <h1 class="text-2xl font-bold text-center ">24/7 Support</h1>
           <p class=" text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut obcaecati
@@ -134,7 +134,7 @@
     </section>
 
 
-    <div>
+    <div class=>
 
     
       
@@ -161,8 +161,8 @@
             
            
             <p class="text-center"> Signup for our email newspaper to get exclusive discounts, updates, and more</p>
-            <div class=" m-10 mx-9">
-            <input type="text" class="border border-black p-2 m-3" style="width: 80%;">
+            <div class=" m-10 mx-9 text-center">
+            <input type="text" class="border border-black p-2 m-3 " style="width: 80%;">
             <br>
             <button class=" bg-black text-white p-3 m-1 underline justify-center"> Subscribe</button>
            </div>
